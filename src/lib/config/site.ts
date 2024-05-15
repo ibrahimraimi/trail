@@ -1,8 +1,8 @@
 export const siteConfig = {
 	name: "Trail",
-	url: "",
+	url: "https://trail-manager.netlify.app",
 	ogImage: "/og.png",
-	description: "",
+	description: "Trail is a simple project/tasks manager web app ",
 	links: {
 		twitter: "https://twitter.com/ibrahimraimi",
 		github: "https://github.com/ibrahimraimi/trail"
