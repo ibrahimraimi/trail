@@ -5,12 +5,14 @@
 	import Metadata from "$lib/components/metadata.svelte";
 	import { updateTheme } from "$lib/utils.js";
 	import { config } from "$lib/stores/config";
+	import { Toaster } from "$lib/components/ui/sonner";
 
 	$: updateTheme($config.theme, $page.url.pathname);
 </script>
 
-<!-- <ModeWatcher /> -->
-<Metadata />
+<Toaster />
+<ModeWatcher />
+<!-- <Metadata /> -->
 
 <div class="relative flex min-h-screen flex-col bg-background" id="page" data-vaul-drawer-wrapper>
 	<slot />

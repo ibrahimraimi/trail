@@ -1,0 +1,7 @@
+Task Schema
+
+- id :unique :autogenerate
+- title :string
+- status :string
+- label :string
+- priority :string
